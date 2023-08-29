@@ -1,0 +1,47 @@
+{
+  "name": "easy-translator",
+  "displayName": "Easy Translator",
+  "description": "simply translating extension",
+  "author": {
+		"name": "Kavindu Shehan",
+		"email": "ksdeshappriya.official@gmail.com"
+	},
+	"license": "MIT",
+	"publisher": "KaviShen",
+  "icon": "icon.png",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": ["*"],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "easy-translator.hi",
+        "title": "Easy Translator"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.54.0",
+    "@vscode/test-electron": "^2.3.4",
+    "eslint": "^8.47.0",
+    "glob": "^10.3.3",
+    "mocha": "^10.2.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.0"
+  }
+}
