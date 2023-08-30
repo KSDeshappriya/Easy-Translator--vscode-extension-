@@ -60,7 +60,7 @@ Customize your translation experience with SL Easy Translator's straightforward 
 
 ## 📝 License
 
-This extension is released under the MIT License. Delve into the [LICENSE](LICENSE.MD) file for a deeper understanding.
+This extension is released under the CC BY-NC 4.0 License. Delve into the [LICENSE](LICENSE.MD) file for a deeper understanding.
 
 ## 🧑‍💻 Author
 
