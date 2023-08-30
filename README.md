@@ -74,7 +74,7 @@ Customize your translation experience with SL Easy Translator's straightforward 
 
 ## 📝 License
 
-This extension is released under the MIT License. Delve into the [LICENSE](LICENSE.md) file for a deeper understanding.
+This extension is released under the MIT License. Delve into the [LICENSE](LICENSE.MD) file for a deeper understanding.
 
 ## 🧑‍💻 Author
 
