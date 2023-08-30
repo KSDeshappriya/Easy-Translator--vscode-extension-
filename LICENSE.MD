@@ -1,4 +1,4 @@
-Creative Commons Attribution-NonCommercial 4.0 International License
+## Creative Commons Attribution-NonCommercial 4.0 International License
 
 This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. You are free to:
 
@@ -12,4 +12,4 @@ Under the following terms:
 
 No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-Learn more about [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+> Learn more about [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).

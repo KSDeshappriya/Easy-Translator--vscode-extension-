@@ -52,7 +52,7 @@ If you aspire to translate to a language that's not in the predefined options:
 
 3. Search for and select "SL Easy Translator: Show Input Box."
 
-4. Enter the target language code (e.g., "de" for German) and press Enter.
+4. Enter the target language code (e.g., "de" for German) and press Enter. If you don't know the language codes, you can find them here. [Language-Codes](ISO639.1.md)
 
 5. SL Easy Translator will gracefully carry out the translation to the specified language.
 
