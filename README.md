@@ -28,19 +28,17 @@ Getting started with SL Easy Translator is a breeze:
 
 ## 📚 Usage
 
-### Translating Selected Text
+### Quick Language Selection
+
+For lightning-fast translations:
 
 1. Select the text you want to translate within your code editor.
 
-2. Right-click on the selected text or use `Ctrl+Shift+P` to open the command palette.
+2. Hover over the selected text.
 
-3. Search for "SL Easy Translator" and select it.
+3. A tooltip will enchantingly appear with language options like "Sinhala," "English," "Tamil," and "Other."
 
-4. A prompt will appear, eagerly waiting for the target language code (e.g., "en" for English, "fr" for French).
-
-5. Enter the language code and press Enter.
-
-6. SL Easy Translator will perform its magic, swiftly replacing the selected text with the translated version.
+4. Click on the desired language to initiate the translation.
 
 ### Translating to Other Languages
 
@@ -55,18 +53,6 @@ If you aspire to translate to a language that's not in the predefined options:
 4. Enter the target language code (e.g., "de" for German) and press Enter. If you don't know the language codes, you can find them here. [Language-Codes](ISO639.1.md)
 
 5. SL Easy Translator will gracefully carry out the translation to the specified language.
-
-### Quick Language Selection
-
-For lightning-fast translations:
-
-1. Select the text you want to translate within your code editor.
-
-2. Hover over the selected text.
-
-3. A tooltip will enchantingly appear with language options like "Sinhala," "English," "Tamil," and "Other."
-
-4. Click on the desired language to initiate the translation.
 
 ## ⚙️ Configuration
 
@@ -83,7 +69,7 @@ This extension is released under the MIT License. Delve into the [LICENSE](LICEN
 
 ## 📅 Version
 
-- **Version:** 0.0.1
+- **Version:** 0.1.1
 
 ## 🤝 Support
 
