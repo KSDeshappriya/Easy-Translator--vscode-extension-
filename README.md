@@ -1,6 +1,6 @@
 # Easy Translator - Visual Studio Code Extension 🌐
 
-![Easy Translator Logo](./icon.png)
+![Easy Translator Logo](icon.png)
 
 **Easy Translator** is a hassle-free translation extension for Visual Studio Code that adds a touch of elegance to your coding experience. This extension simplifies the process of translating text within your code, making it a breeze.
 
@@ -70,11 +70,11 @@ For lightning-fast translations:
 
 ## ⚙️ Configuration
 
-Customize your translation experience with Easy Translator's straightforward configuration options. For in-depth configuration guidance, consult the [official documentation](link-to-documentation).
+Customize your translation experience with Easy Translator's straightforward configuration options. For in-depth configuration guidance, consult the [official documentation](https://github.com/KSDeshappriya/EasyTranslator).
 
 ## 📝 License
 
-This extension is released under the MIT License. Delve into the [LICENSE](link-to-license) file for a deeper understanding.
+This extension is released under the MIT License. Delve into the [LICENSE](LICENSE.md) file for a deeper understanding.
 
 ## 🧑‍💻 Author
 
@@ -91,7 +91,7 @@ If you have feedback, feature requests, or require assistance, kindly reach out 
 
 ## 💻 Development
 
-Interested in contributing or examining the source code? Explore the [GitHub repository](link-to-github).
+Interested in contributing or examining the source code? Explore the [GitHub repository](https://github.com/KSDeshappriya/EasyTranslator).
 
 ## 🙌 Acknowledgments
 

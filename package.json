@@ -8,6 +8,7 @@
 	},
 	"license": "MIT",
 	"publisher": "KaviShen",
+  "repository": "https://github.com/KSDeshappriya/EasyTranslator",
   "icon": "icon.png",
   "version": "0.1.0",
   "engines": {
@@ -16,7 +17,7 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": ["*"],
+  "activationEvents": ["onStartupFinished"],
   "main": "./extension.js",
   "contributes": {
     "commands": [
