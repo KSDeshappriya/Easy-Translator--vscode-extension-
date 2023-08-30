@@ -5,7 +5,7 @@ const tUnit = require('./scripts/proxy');
 
 // This method is called when your extension is activated
 function activate(context) {
-    let disposable = vscode.commands.registerCommand('easy-translator.hi', (selectedLanguage) => {
+    let disposable = vscode.commands.registerCommand('sl-easy-translator.hi', (selectedLanguage) => {
         const editor = vscode.window.activeTextEditor;
         if (!editor) {
             return;
@@ -49,14 +49,14 @@ function activate(context) {
     });
 
     // textBox
-    vscode.commands.registerCommand('easy-translator.showInputBox', () => {
+    vscode.commands.registerCommand('sl-easy-translator.showInputBox', () => {
         // Show an input box to the user
         vscode.window.showInputBox({
             prompt: 'Enter your Language Code',
             placeHolder: 'like as for English: en'
         }).then((userInput) => {
             let uLang = userInput;
-            vscode.commands.executeCommand('easy-translator.hi', uLang);
+            vscode.commands.executeCommand('sl-easy-translator.hi', uLang);
         });
     });
 
@@ -74,10 +74,10 @@ function activate(context) {
 
                 // Update the MarkdownString content with the selected text and command link
                 let myContent = new vscode.MarkdownString(`🌏
-                [Sinhala](command:easy-translator.hi?${encodeURIComponent(JSON.stringify("si"))}) |
-                [English](command:easy-translator.hi?${encodeURIComponent(JSON.stringify("en"))}) |
-                [Tamil](command:easy-translator.hi?${encodeURIComponent(JSON.stringify("ta"))}) |
-                [Other..](command:easy-translator.showInputBox)`);
+                [Sinhala](command:sl-easy-translator.hi?${encodeURIComponent(JSON.stringify("si"))}) |
+                [English](command:sl-easy-translator.hi?${encodeURIComponent(JSON.stringify("en"))}) |
+                [Tamil](command:sl-easy-translator.hi?${encodeURIComponent(JSON.stringify("ta"))}) |
+                [Other..](command:sl-easy-translator.showInputBox)`);
                 myContent.isTrusted = true;
 
                 // Create a hover with the updated MarkdownString content

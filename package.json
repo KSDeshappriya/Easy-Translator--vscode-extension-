@@ -1,6 +1,6 @@
 {
-  "name": "easy-translator",
-  "displayName": "Easy Translator",
+  "name": "sl-easy-translator",
+  "displayName": "SL Easy Translator",
   "description": "simply translating extension",
   "author": {
 		"name": "Kavindu Shehan",
@@ -22,8 +22,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "easy-translator.hi",
-        "title": "Easy Translator"
+        "command": "sl-easy-translator.hi",
+        "title": "SL Easy Translator"
       }
     ]
   },
