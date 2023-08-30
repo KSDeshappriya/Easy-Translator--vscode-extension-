@@ -1,0 +1,32 @@
+name: Update Extension
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the extension
+        run: npm run build
+
+      - name: Publish the extension
+        run: |
+          vsce login dksdeshappriya -p rrtevccjaya4z6532vb4526lnu7d5xxbnsphmkio6icmlfvpl2ma
+          vsce publish -p rrtevccjaya4z6532vb4526lnu7d5xxbnsphmkio6icmlfvpl2ma
+        env:
+          GITHUB_TOKEN: ${{ secrets.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 }}
